@@ -1,0 +1,145 @@
+/* Gloabl Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: #092F94;
+    font-family: "Gideon Roman", serif;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;   
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Gideon Roman", serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #092F94;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+nav {
+    background-color: #0d0d0d;
+    padding: 10px;
+}
+
+nav il {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 60px;
+    line-height: 30px;
+    color:  #ffffff;
+    background-color: black;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: White;
+}
+
+header h1 {
+    font-size: 35px;
+    color: #092F94;
+}
+
+main {
+    border: 2px solid #092F94;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+#lower {
+    border: 2px solid #092F94;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid #092F94;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: #092F94;
+    width: 125px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+        width: 75%;
+    }
+
+    .col img {
+        width: 75%;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    #lover {
+        width: 100%;
+        display: flex;
+    }
+
+    .col{
+        width: 33.33%;
+    }
+}
